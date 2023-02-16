@@ -1,0 +1,439 @@
+.messagesection {
+    width: 100%;
+    height: 430px;
+    /* background: #F5F5F4; */
+    background: var(--firstcolor);
+    color: var(--blvcolor);
+    display: flex;
+
+}
+.telcard {
+    width: 255px;
+    height: 200px;
+    background: var(--telcolor);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 0.6rem;
+}
+.telbtn {
+    width: 177px;
+    height: 40px;
+    background: #2B2B2B;
+    border-radius: 50px;
+    font-family: 'Open Sauce One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    color: #FFFFFF;
+    margin-bottom: 2rem;
+    transition: all 0.4s ease-out;
+    cursor: pointer;
+}
+.telicon {
+  margin-top: 1.3rem;
+  margin-left: 1rem;
+  align-self: flex-start;
+  width: 131px;
+  height: 31px;
+  filter: var(--imgcolor);
+}
+.telbtn:hover, .wabtn:hover {
+    background: #1b1b1b;
+    color: #e7e7e7;
+}
+.telinput {
+    width: 100%;
+    border: 0;
+    margin-left: 3.3rem;
+    outline: 0;
+    font-size: 1.3rem;
+    color: var(--blvcolor);
+    padding: 7px 0;
+    background: transparent;
+    transition: border-color 0.2s;
+}
+.telinput::placeholder {
+    color: transparent;
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--placeholder);
+  }
+
+  .gmailicon {
+    width: 21px;
+    height: 15px;
+    filter: var(--imgcolor);
+  }
+  .gmailcard {
+    width: 255px;
+    height: 55px;
+    background: var(--gcolor);
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    z-index: 99;
+  }
+  .gmailbtn {
+    width: 54px;
+    height: 22px;
+    background: #2C2C2C;
+    border-radius: 8px;
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8px;
+    color: #FFFFFF;
+    cursor: pointer;
+  }
+  .emailad {
+    font-family: 'Open Sauce One';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    color: var(--textcolor);
+  }
+  .wacard {
+    width: 255px;
+    height: 135px;
+    background: var(--wacolor);
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 1rem;
+  }
+  .cards {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    
+  }
+  .wabtn {
+    width: 177px;
+    height: 40px;
+    background: #272727;
+    border-radius: 10px;
+    font-family: 'Open Sauce One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    color: #FFFFFF;
+    transition: all 0.4s ease-out;
+    margin-top: 1.2rem;
+    cursor: pointer;
+}
+.waprof {
+    margin-top: 0.2rem;
+    margin-right: 1rem;
+    width: 55px;
+    height: 55px;
+}
+.walogo {
+    margin-bottom: 0.2rem;
+    margin-left: 2rem;
+    width: 117px;
+    height: 30px;
+    filter: var(--imgcolor);
+
+}
+.in {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 0.6rem;
+}
+.overl {
+    position: absolute;
+    transform: translateX(70%) translateY(-20%);
+    opacity: 0.6;
+    display: none;
+}
+/* ////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////////////////////////////////////// *//* ////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+@media (min-width: 480px) {
+  .gmailbtn {
+    width: 75px;
+    height: 30px;
+    background: #2C2C2C;
+    border-radius: 8px;
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    color: #FFFFFF;
+    cursor: pointer;
+  }
+  .gmailicon {
+    width: 35px;
+    height: 25px;
+    filter: var(--imgcolor);
+  }
+  .emailad {
+    font-family: 'Open Sauce One';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: var(--textcolor);
+  }
+  
+  .wabtn {
+    width: 237px;
+    height: 56px;
+    background: #272727;
+    border-radius: 10px;
+    font-family: 'Open Sauce One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    color: #FFFFFF;
+    transition: all 0.4s ease-out;
+    margin-top: 1.2rem;
+    cursor: pointer;
+}
+.waprof {
+    margin-top: 1rem;
+    margin-right: 3rem;
+    width: 70px;
+    height: 70px;
+}
+.walogo {
+    margin-bottom: 1rem;
+    margin-left: 3rem;
+    width: 160px;
+    height: 42px;
+    filter: var(--imgcolor);
+}
+  .messagesection {
+    width: 100%;
+    height: 520px;
+    /* background: #F5F5F4; */
+    background: var(--firstcolor);
+    color: var(--blvcolor);
+    display: flex;
+
+}
+  .cards {
+    flex-direction: column;
+    justify-content: center;
+    /* width: 100%;
+    align-items: center;
+    flex-direction: column; */
+  }
+   .overl {
+    position: absolute;
+    transform: translateX(70%) translateY(-20%);
+    opacity: 0.6;
+    display: block;
+  }
+  .telcard {
+    width: 360px;
+    height: 300px;
+    background: var(--telcolor);
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 0.6rem;
+}
+.wacard {
+  width: 360px;
+  height: 188px;
+  background: var(--wacolor);
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 1rem;
+}
+.gmailcard {
+  width: 360px;
+  height: 78px;
+  background: var(--gcolor);
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  z-index: 99;
+}
+.telbtn {
+  width: 295px;
+  height: 55px;
+  background: #2B2B2B;
+  border-radius: 50px;
+  font-family: 'Open Sauce One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #FFFFFF;
+  margin-bottom: 2rem;
+  transition: all 0.4s ease-out;
+  cursor: pointer;
+}
+.telicon {
+margin-top: 1.3rem;
+margin-left: 1rem;
+align-self: flex-start;
+width: 161px;
+height: 37px;
+filter: var(--imgcolor);}
+}
+/* ////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+@media (min-width: 768px) {
+  .gmailbtn {
+    width: 75px;
+    height: 30px;
+    background: #2C2C2C;
+    border-radius: 8px;
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    color: #FFFFFF;
+    cursor: pointer;
+  }
+  .gmailicon {
+    width: 35px;
+    height: 25px;
+    filter: var(--imgcolor);
+  }
+  .emailad {
+    font-family: 'Open Sauce One';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: var(--textcolor);
+  }
+  .wabtn {
+    width: 237px;
+    height: 56px;
+    background: #272727;
+    border-radius: 10px;
+    font-family: 'Open Sauce One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    color: #FFFFFF;
+    transition: all 0.4s ease-out;
+    margin-top: 1.2rem;
+    cursor: pointer;
+}
+.waprof {
+    margin-top: 1rem;
+    margin-right: 3rem;
+    width: 70px;
+    height: 70px;
+}
+.walogo {
+    margin-bottom: 1rem;
+    margin-left: 3rem;
+    width: 160px;
+    height: 42px;
+    filter: var(--imgcolor);
+}
+  .messagesection {
+    width: 100%;
+    height: 520px;
+    /* background: #F5F5F4; */
+    background: var(--firstcolor);
+    color: var(--blvcolor);
+    display: flex;
+
+}
+.telcard {
+  width: 360px;
+  height: 300px;
+  background: var(--telcolor);
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 0.6rem;
+}
+  .cards {
+    flex-direction: row;  
+    justify-content: center;
+    /* width: 100%;
+    align-items: center;
+    flex-direction: column; */
+  }
+  .overl {
+    position: absolute;
+    transform: translateX(70%) translateY(-20%);
+    opacity: 0.6;
+  }
+  .wacard {
+    width: 360px;
+    height: 188px;
+    background: var(--wacolor);
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 1rem;
+  }
+  .gmailcard {
+    width: 360px;
+    height: 78px;
+    background: var(--gcolor);
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    z-index: 99;
+  }
+  .telbtn {
+    width: 295px;
+    height: 55px;
+    background: #2B2B2B;
+    border-radius: 50px;
+    font-family: 'Open Sauce One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-bottom: 2rem;
+    transition: all 0.4s ease-out;
+    cursor: pointer;
+}
+.telicon {
+  margin-top: 1.3rem;
+  margin-left: 1rem;
+  align-self: flex-start;
+  width: 161px;
+  height: 37px;
+  filter: var(--imgcolor);
+}
+
+}

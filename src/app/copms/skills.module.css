@@ -1,0 +1,108 @@
+/* :root {
+    --overlay: url(../../../public/overlay.png);
+}
+[data-theme='dark'] {
+    --overlay: url(../../../public/overlay-blvk.png);
+
+} */
+
+.skills {
+    width: 100%;
+    height: 60vh;
+    /* background: #F5F5F4; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding: 0 12rem 0 12rem; */
+    flex-wrap: wrap;
+    padding: 2rem;
+    background: var(--firstcolor);
+    color: var(--blvcolor);
+
+}
+.skillbox {
+    width: 70px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background: url(../../../public/overlay.png); */
+    background: var(--overlay);
+    /* border: 0.5px solid rgba(0, 0, 0, 0.8); */
+    border-radius: 65px;
+}
+.skilllvl {
+    font-family: 'Open Sauce One';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    margin-top: 2rem;
+    
+}
+.iconh {
+    transition: all 0.5s ease-out;
+    filter: var(--imgcolor);
+}
+.iconh:hover {
+    transform: translateY(-30%);
+
+}
+
+
+
+@media (min-width: 480px) {
+    .skills {
+        width: 100%;
+        height: 130vh;
+        /* background: #F5F5F4; */
+        background: var(--firstcolor);
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0;
+        /* padding: 0 12rem 0 12rem; */
+    }
+    .skillbox {
+        width: 100px;
+        height: 150px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: var(--overlay);
+
+        /* background: url(../../../public/overlay.png); */
+        /* border: 0.5px solid rgba(0, 0, 0, 0.8); */
+        border-radius: 65px;
+    }
+
+
+}
+@media (min-width: 768px) {
+    .skills {
+        width: 100%;
+        height: 430px;
+        /* background: #F5F5F4; */
+        background: var(--firstcolor);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 12rem 0 12rem;
+    }
+    .skillbox {
+        width: 100px;
+        height: 150px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: var(--overlay);
+
+        /* background: url(../../../public/overlay.png); */
+        /* border: 0.5px solid rgba(0, 0, 0, 0.8); */
+        border-radius: 65px;
+    }
+
+}

@@ -1,0 +1,83 @@
+.insSection {
+    width: 100%;
+    height: 420px;
+    background: var(--firstcolor);
+    color: var(--blvcolor);
+    /* background: #F5F5F4; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+
+}
+.postscontainer {
+    width: 78.8%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    /* overflow-x: hidden; */
+
+}
+.post {
+    width: 120px;
+    height: 120px;
+    margin: 0.2rem;
+}
+.postbox {
+    width: 214px;
+    height: 214px;
+}
+.instaid {
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 28px;
+    margin-bottom: 2.2rem;
+    margin-top: 2.2rem;
+}
+@media (min-width: 480px) {
+    .post {
+        width: 160px;
+        height: 160px;
+        margin: 0.75rem;
+    }
+    .postscontainer {
+        width: 78.8%;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    
+    }
+    .insSection {
+        width: 100%;
+        height: 800px;
+        /* background: #F5F5F4; */
+        display: flex;
+        /* justify-content: center; */
+        align-items: center;
+        flex-direction: column;
+    }
+}
+@media (min-width: 768px) {
+    .post {
+        width: 214px;
+        height: 214px;
+        margin: 0.75rem;
+    }
+    .postscontainer {
+        width: 78.8%;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    
+    }
+    .insSection {
+        width: 100%;
+        height: 420px;
+        /* background: #F5F5F4; */
+        display: flex;
+        /* justify-content: center; */
+        align-items: center;
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,426 @@
+.socialsection {
+    width: 100%;
+    height: 600px;
+    /* background: url(../../../public/overlay-2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+    /* background: #F5F5F4; */
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    background: var(--firstcolor);
+    color: var(--blvcolor);
+
+}
+.socialcard {
+    width: 246px;
+    height: 68px;
+    border-radius: 25px;
+    background: var(--overlay-2);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.cardicon {
+    width: 60px;
+    height: 60px;
+    filter: var(--imgcolor);
+}
+.sotitle {
+    font-family: var(--poppins-font);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    margin-left: 3rem;
+
+}
+.soicon {
+    width: 60px;
+    height: 60px;
+    filter: var(--imgcolor);
+
+}
+.sop {
+    font-family: var(--poppins-font);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    margin-left: 3rem;
+}
+/* //////////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////////// */
+
+.twitter {
+    width: 300px;
+    height: 133px;
+    background: #000000;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+
+}
+.twname {
+    font-family: 'Chirp';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 13px;
+    color: #FFFFFF;
+    margin-left: 10px;
+}
+.twid {
+    font-family: 'Chirp';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    color: #6C6D71;
+    margin-left: 10px;
+}
+.twlogo {
+    width: 23px;
+    height: 19px;
+}
+.twbox1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+    padding-top: 0.8rem;
+}
+.twpf {
+    width: max-content;
+    display: flex;
+}
+
+.twprofile {
+    width: 40px;
+    height: 40px;
+}
+.twtext {   
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    color: #B0B0B0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.like {
+    width: 16px;
+    height: 14px;
+    margin-right: 6px;
+}
+.twt {
+    display: flex;
+    align-self: flex-end;
+    margin-right: 1rem;
+}
+.twc {
+    font-family: 'Chirp';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #6C6D71;
+}
+.likebox {
+    display: flex;
+    margin-right: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.twfoo {
+    display: flex;
+    padding-bottom: 0.6rem;
+    margin-left: 1rem;
+}
+.twsp {
+    display: flex;
+    align-self: center;
+    transform: translateY(230%);
+    width: 250px;
+}
+/* //////////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////////// */
+
+.footer {
+    width: 100%;
+    height: 30px;
+    background: linear-gradient(#F5F5F4 , #ddd);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background: var(--firstcolor);
+    color: var(--textcolor);
+}
+.date {
+    padding-left: 2rem;
+    display: inline-flex;
+    font-family: 'Open Sauce One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+  }
+ /* ////////////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////////////// */
+ /* ////////////////////////////////////////////////////////////////////////// */
+ /* ////////////////////////////////////////////////////////////////////////// */
+ /* ////////////////////////////////////////////////////////////////////////// */
+ /* ////////////////////////////////////////////////////////////////////////// */
+ /* ////////////////////////////////////////////////////////////////////////// */
+
+@media (min-width: 480px) {
+    .sotitle {
+        font-family: var(--poppins-font);
+        font-style: normal;
+        font-weight: 700;
+        font-size: 28px;
+        margin-left: 3rem;
+    }
+    .sop {
+        font-family: var(--poppins-font);
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        margin-left: 3rem;
+    }
+    .twname {
+        font-family: 'Chirp';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 20px;
+        color: #FFFFFF;
+        margin-left: 10px;
+    }
+    .twid {
+        font-family: 'Chirp';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        color: #6C6D71;
+        margin-left: 10px;
+    }
+    .twlogo {
+        width: 31px;
+        height: 24px;
+    }
+    .twprofile {
+        width: 52px;
+        height: 52px;
+    }
+    .like {
+        width: 22px;
+        height: 18px;
+        margin-right: 6px;
+    }
+    .twc {
+        font-family: 'Chirp';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        color: #6C6D71;
+    }
+    .twtext {   
+
+        font-size: 18px;
+    }
+    .socialsection {
+        width: 100%;
+        height: 280px;
+        /* background: url(../../../public/overlay-2.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover; */
+        /* background: #F5F5F4; */
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: center;
+    
+    }
+    .socialcard {
+        width: 350px;
+        height: 95px;
+        border-radius: 25px;
+        /* background: url(../../../public/overlay-4.png); */
+        background: var(--overlay-2);
+
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        cursor: pointer;
+    }
+    .cardicon {
+        width: 85px;
+        height: 85px;
+    }
+    .soicon {
+        width: 85px;
+        height: 85px;
+    }
+    .twitter {
+        width: 450px;
+        height: 200px;
+        background: #000000;
+        border-radius: 25px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        cursor: pointer;
+    
+    }
+    .twsp {
+        display: flex;
+        align-self: center;
+        transform: translateY(250%);
+    }
+
+
+}
+
+/* ////////////////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////////////////////////// */
+
+@media (min-width: 768px) {
+    .sotitle {
+        font-family: var(--poppins-font);
+        font-style: normal;
+        font-weight: 700;
+        font-size: 28px;
+        margin-left: 3rem;
+    }
+    .twname {
+        font-family: 'Chirp';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 20px;
+        color: #FFFFFF;
+        margin-left: 10px;
+    }
+    .twid {
+        font-family: 'Chirp';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        color: #6C6D71;
+        margin-left: 10px;
+    }
+    .twlogo {
+        width: 31px;
+        height: 24px;
+    }
+    .twprofile {
+        width: 52px;
+        height: 52px;
+        
+    }
+    .like {
+        width: 22px;
+        height: 18px;
+        margin-right: 6px;
+    }
+    .twc {
+        font-family: 'Chirp';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        color: #6C6D71;
+    }
+    .twtext {   
+        font-size: 18px;
+    }
+    .sop {
+        font-family: var(--poppins-font);
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        margin-left: 3rem;
+    }
+    .socialsection {
+        width: 100%;
+        height: 280px;
+        /* background: url(../../../public/overlay-2.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover; */
+        /* background: #F5F5F4; */
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+        align-items: center;
+    
+    }
+    .socialcard {
+        width: 350px;
+        height: 95px;
+        border-radius: 25px;
+        /* background: url(../../../public/overlay-4.png); */
+        background: var(--overlay-2);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        cursor: pointer;
+    }
+    .cardicon {
+        width: 85px;
+        height: 85px;
+    }
+    .soicon {
+        width: 85px;
+        height: 85px;
+    }
+    .twitter {
+        width: 450px;
+        height: 200px;
+        background: #000000;
+        border-radius: 25px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        cursor: pointer;
+    
+    }
+    .twsp {
+        display: flex;
+        align-self: center;
+        transform: translateY(250%);
+    }
+
+
+}

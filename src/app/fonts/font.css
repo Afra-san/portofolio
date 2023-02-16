@@ -1,0 +1,40 @@
+/* @font-face {
+    font-family: "Rokh";
+    src: local("Trickster"),
+      url("trickster-COLRv1.otf") format("opentype") tech(color-COLRv1), url("trickster-outline.otf")
+        format("opentype"), url("trickster-outline.woff") format("woff");
+  } */
+@font-face {
+    font-family: 'Rokh';
+    src: url('Rokh-Regular.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Yekan Bakh';
+  src: url('YekanBakh-Regular.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Gotham';
+  src: url('Gotham-Light.woff2') format('woff2');
+}
+  @font-face {
+    font-family: 'aquafont';
+    src: url('aquafont.woff2') format('woff2');
+}
+  @font-face {
+    font-family: 'Chrip';
+    src: url('Chirp.woff2') format('woff2');
+}
+  @font-face {
+    font-family: 'Open Sauce One';
+    src: url('OpenSauceSans-Regular.woff2') format('woff2');
+    font-weight: 400;
+}
+@font-face {
+  font-family: 'Open Sauce One';
+  src: url('OpenSauceSans-Medium.woff2') format('woff2');
+  font-weight: 500;
+}
+@font-face {
+  font-family: 'Segoe UI';
+  src: url('Segoe-UI.woff') format('woff');
+}

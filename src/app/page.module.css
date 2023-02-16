@@ -1,0 +1,262 @@
+/* @import url(../../public/3x4.png); */
+.main {
+  display: flex;
+  justify-content: center;
+  /*
+  flex-direction: column;
+  align-items: center;
+  padding: 6rem;
+  min-height: 100vh; */
+  width: 100%; 
+  height: 70vh;
+  background: var(--firstcolor);
+  color: var(--blvcolor);
+
+  /* background: #F5F5F4; */
+}
+.spacer {
+  /* background: #F5F5F4; */
+  background: var(--firstcolor);
+  display: flex;
+  justify-content: center;
+
+}
+.star {
+  width: 84px;
+  height: 40px;
+  filter: var(--imgcolor);
+}
+.spacerr {
+  width: 270px;
+  height: 6px;
+}
+.spacebox {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background: #F5F5F4; */
+  background: var(--firstcolor);
+  color: var(--blvcolor);
+}
+.myimage {
+  width: 215px;
+  height: 275px;
+  background: url(../../public/3x4.png);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  flex-direction: row-reverse;
+}
+.name {
+  /* right: 18rem;
+  top: 9rem; */
+  transform: translateX(95%) translateY(40%);
+  position: absolute;
+  font-family: 'Rokh';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 30px;
+}
+.pos {
+  transform: translateX(60%) translateY(-15%);
+  font-family: 'Rokh';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;    
+  position: absolute;
+}
+.past{
+  /* transform: translateX(-240%) translateY(2700%); */
+  font-family: 'aquafont';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  position: absolute;
+  margin-top: -1rem;
+
+}
+.desc {
+  transform: translateX(-0%) translateY(320%);
+  text-align: right;
+  font-family: 'Yekan Bakh';
+  /* color: var(--thirdcolor); */
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  position: absolute;
+}
+.kanash {
+  transform: translateX(110%);
+  width: 30px;
+  font-family: 'aquafont';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+
+}
+
+@media (min-width: 480px) {
+  .spacerr {
+    width: 1010px;
+    height: 6px;
+  }
+  .main {
+    width: 100%; 
+    height: 90vh;
+  }  
+  .ove {
+    position: absolute;
+    transform: translateX(70%);
+    opacity: 0.5;
+    -webkit-user-drag: none;
+    display: none;
+  }
+  .myimage {
+    width: 258px;
+    height: 330px;
+    background: url(../../public/3x4.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+  }
+  .name {
+    /* right: 18rem;
+    top: 9rem; */
+    transform: translateX(95%) translateY(80%);
+    position: absolute;
+    font-family: 'Rokh';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 45px;
+  }
+  .pos {
+    transform: translateX(57%);
+    font-family: 'Rokh';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;    
+    position: absolute;
+  }
+  .past{
+    /* transform: translateX(-180%) translateY(1800%); */
+    font-family: 'aquafont';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    /* position: absolute; */
+    margin-top: -2rem;
+
+  }
+  .desc {
+    transform: translateX(0%) translateY(300%);
+    text-align: right;
+    font-family: 'Yekan Bakh';
+    /* color: var(--thirdcolor); */
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    position: absolute;
+  }
+  .kanash {
+    transform: translateX(110%);
+    width: 30px;
+    font-family: 'aquafont';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+
+  }
+}
+
+.ove {
+  position: absolute;
+  transform: translateX(70%);
+  opacity: 0.5;
+  -webkit-user-drag: none;
+  display: none;
+}
+
+@media (min-width: 640px) {
+  .spacerr {
+    width: 1010px;
+    height: 6px;
+  }
+  .main {
+    width: 100%; 
+    height: 90vh;
+  }  
+  .ove {
+    position: absolute;
+    transform: translateX(70%);
+    opacity: 0.5;
+    -webkit-user-drag: none;
+    display: block;
+  }
+  .name {
+    /* right: 18rem;
+    top: 9rem; */
+    transform: translateX(95%) translateY(40%);
+    position: absolute;
+    font-family: 'Rokh';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 64px;
+  }
+  .pos {
+    transform: translateX(120%);
+    font-family: 'Rokh';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 38px;    
+    position: absolute;
+  }
+  .past{
+    /* transform: translateX(-380%) translateY(1000%); */
+    /* transform: translateY(-30%); */
+    font-family: 'aquafont';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    /* position: relative; */
+    margin-top: -2rem;
+
+  }
+  .desc {
+    transform: translateX(-120%) translateY(240%);
+    text-align: right;
+    font-family: 'Yekan Bakh';
+    /* color: var(--thirdcolor); */
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    position: absolute;
+  }
+  .kanash {
+    transform: translateX(110%);
+    width: 30px;
+    font-family: 'aquafont';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+
+  }
+  .myimage {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    flex-direction: row-reverse;
+    width: 430px;
+    height: 549px;
+    background: url(../../public/3x4.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    
+  }
+}
